@@ -3,6 +3,8 @@ m = 5
 a = 6
 total_apples = (j+m+a)
 
-print(j, m, a, sep=",") # sep="," gives you the comma after each variable (j m a)
+print(j, m, a, sep=",")
 
 print(total_apples) #test
+
+print('Total apples', total_apples, sep="=") # On a role here, Title (string) and variable (total apples seperated by =)
