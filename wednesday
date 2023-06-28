@@ -1,3 +1,4 @@
+################################################# Apple task #############################################
 j = 3
 m = 5
 a = 6
@@ -13,6 +14,17 @@ print('Total apples', total_apples, sep="=") # On a role here, Title (string) an
 
 average = sum(each_apple) / len(each_apple) #Divids the total number in the list ([J, m and A combined) and divides by total number of people (14 total apples by 3 people = 4.6666
 print("Total average apples", average)
+
+############################################################ Kilo/mile task ######################################################
+
+kilometers = 12.25
+miles = 7.38
+
+miles_to_kilometers = (7.38*1.61)
+kilometers_to_miles = (12.25/1.61)
+
+print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
+print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
 
 
 
