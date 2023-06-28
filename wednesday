@@ -40,6 +40,19 @@ y= (3* x**3)- (2 * 2**x) + (3 * x) +1   #3x3 - 2x2 + 3x - 1 was the sum given (3
 print("y =", y)
 
 
+########################################################### Comments Lab ##############################################
+
+#Computes the number of seconds in a given number of hours
+
+
+a = 2 # number of hours
+seconds = 3600 # number of seconds in 1 hour
+
+print("Hours: ", a) #printing the number of hours
+print("Seconds in Hours: ", a * seconds) # printing the number of seconds in a given number of hours
+
+
+#this is the end of the program that computes the number of seconds in 2 hour
 
 
 
