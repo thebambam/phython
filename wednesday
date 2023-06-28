@@ -31,7 +31,13 @@ print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles", "=", 
 
 ######################################################### Operator/expressions ######################################################
 
+x =  1 # hardcode your test data here (test data given was 0, 1 and -1 which outputs -1.0, 3.0 and -9.0 respectively
+x = float(x)
+y = x
 
+y= (3* x**3)- (2 * 2**x) + (3 * x) +1   #3x3 - 2x2 + 3x - 1 was the sum given (3 to power 3 - 2 to the power of 2 + 3 times x minus 1)
+
+print("y =", y)
 
 
 
