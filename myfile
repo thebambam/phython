@@ -6,3 +6,7 @@ print("***   ***")
 print("  *   *")
 print("  *   *")
 print("  *****")
+
+
+
+print('"I\'m\" "\"learning"\" "\"\"pythom"\"\"')      # ' Allows use of " quotations defined by using a \ backslash ie "\" adds 2 quotes.
