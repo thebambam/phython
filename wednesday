@@ -2,9 +2,17 @@ j = 3
 m = 5
 a = 6
 total_apples = (j+m+a)
+each_apple = [3, 5, 6]
+
 
 print(j, m, a, sep=",")
 
 print(total_apples) #test
 
 print('Total apples', total_apples, sep="=") # On a role here, Title (string) and variable (total apples seperated by =)
+
+average = sum(each_apple) / len(each_apple)
+print(average)
+
+
+
