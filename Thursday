@@ -1,0 +1,13 @@
+
+
+a = float(input("Insert a: ")) #Folat value input (must be number)
+b = float(input("Insert b: ")) #Float value input for a
+
+print("Total together:", (a+b))
+print("Minus:", (a-b))
+print("Multip:", (a*b))
+print("Division:", (a/b))
+print("Floor Division:", (a//b))
+print("Division:", (a**b))
+
+print("\nThat's all, folks!")
