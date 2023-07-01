@@ -19,14 +19,13 @@ else: # after all that if its anything else print this
 
 
 
-def calculate_discounted_value(value):
-    discount_percent = 18
-    discount_amount = value * (discount_percent / 100)
-    discounted_value = value - discount_amount
-    return discounted_value
+income = float(input("Enter the annual income: "))
 
-input_value = 100
-discounted_value = calculate_discounted_value(input_value)
-print("Discounted value: ", discounted_value)
+if income > 85529:
+    tax = income * 0.32 - 14839.02
+else
+	tax = income * 0.18 - 556.02
+# Write the rest of your code here.
 
-
+tax = round(tax, 0)
+print("The tax is:", tax, "thalers")
