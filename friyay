@@ -2,3 +2,16 @@ n = int(input("Enter an number: ")) #Variable with an input function to allow us
 
 output = "true" if n >= 100 else "false" #output a true if user inputs (n) 100 or higher else false if lower.
 print(output) #results of the input vs output
+
+
+
+
+
+user_input = input("Enter a word: ")
+
+if user_input == "Spathiphyllum":
+    print("yay")
+elif user_input == "spathiphyllum":
+    print("yip")
+else:
+    print("bugger")
