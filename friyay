@@ -26,16 +26,15 @@ else: # after all that if its anything else print this
 income = float(input("Enter the annual income: "))
 jury_input = input("Did you do Jury: ")
 
-if jury_input == "yes" :
-tax = income * 0.5
+if jury_input == "yes":
+    tax = income * 0.5
 elif jury_input == "no":
     tax = income * 0.32 - 14839.02
-    else 
-	tax = income * 0.18 - 556.02
+else:
+    tax = income * 0.18 - 556.02
 
+tax = round(tax, 0)
 
-
-tax = round(tax, 0) 
 if tax < 0:
     print("No tax")
 else:
