@@ -15,3 +15,18 @@ elif user_input == "spathiphyllum": #elif is basically or
     print("No, I want a big Spathiphyllum!")
 else: # after all that if its anything else print this
     print("Spathiphyllum! Not [input]!")
+
+
+
+
+def calculate_discounted_value(value):
+    discount_percent = 18
+    discount_amount = value * (discount_percent / 100)
+    discounted_value = value - discount_amount
+    return discounted_value
+
+input_value = 100
+discounted_value = calculate_discounted_value(input_value)
+print("Discounted value: ", discounted_value)
+
+
