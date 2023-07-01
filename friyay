@@ -23,16 +23,20 @@ else: # after all that if its anything else print this
 #TAX WORLD#
 ###########
 
-income = float(input("Enter the annual income: ")) # Input function
+income = float(input("Enter the annual income: "))
+jury_input = input("Did you do Jury: ")
 
-if income > 85529:   # if the input is greater than do this
+if jury_input == "yes" :
+tax = income * 0.5
+elif jury_input == "no":
     tax = income * 0.32 - 14839.02
-else:                # otherwise do this calculation
+    else 
 	tax = income * 0.18 - 556.02
 
 
-tax = round(tax, 0) #round the tax
-if tax < 0: #if tax causes 0 income dont tax
+
+tax = round(tax, 0) 
+if tax < 0:
     print("No tax")
 else:
     print("The tax is:", tax, "thalers")
