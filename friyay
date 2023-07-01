@@ -4,14 +4,14 @@ output = "true" if n >= 100 else "false" #output a true if user inputs (n) 100 o
 print(output) #results of the input vs output
 
 
+###############
+#Spathiphyllum#
+###############
+user_input = input("Enter a word: ") #Input function
 
-
-
-user_input = input("Enter a word: ")
-
-if user_input == "Spathiphyllum":
-    print("yay")
-elif user_input == "spathiphyllum":
-    print("yip")
-else:
-    print("bugger")
+if user_input == "Spathiphyllum": # If input is defined word print...
+    print("Yes - Spathiphyllum is the best plant ever!")
+elif user_input == "spathiphyllum": #elif is basically or
+    print("No, I want a big Spathiphyllum!")
+else: # after all that if its anything else print this
+    print("Spathiphyllum! Not [input]!")
