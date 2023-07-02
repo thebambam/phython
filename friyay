@@ -14,7 +14,7 @@ if user_input == "Spathiphyllum": # If input is defined word print...
 elif user_input == "spathiphyllum": #elif is basically or
     print("No, I want a big Spathiphyllum!")
 else: # after all that if its anything else print this
-    print("Spathiphyllum! Not [input]!")
+    print("Spathiphyllum! Not ",[input] )
 
 
 
