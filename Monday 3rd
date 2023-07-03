@@ -11,4 +11,6 @@ print(input(
 +================================+ \n
 Choose number:"""))
 
-
+if input == 777: print("yay")
+else
+    print("no")
