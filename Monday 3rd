@@ -1,6 +1,6 @@
 secret_number = 777
 
-print(input(
+print(input int(
 """
 +================================+
 | Welcome to my game, muggle!    |
