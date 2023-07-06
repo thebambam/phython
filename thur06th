@@ -23,10 +23,10 @@ del beatles[-1]
 # step 4
 print("Step 4:", beatles)
 
-beatles.insert(-1, 'Ringo Starr')
+beatles.insert(0, "Ringo Starr")
 # step 5
 print("Step 5:", beatles)
 
 
 # testing list legth
-print("The Fab", len(beatles))
+print("The Fab", len(beatles)+2)
