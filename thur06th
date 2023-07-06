@@ -1,1 +1,32 @@
 
+
+
+beatles = []# step 1
+print("Step 1:", beatles)
+beatles.append("John Lennon, Paul McCartney, George Harrison")
+# step 2
+print("Step 2:", beatles)
+
+
+for name in range(1):
+    beatles.append(str(input("Enter Stu Sutcliffe: ")))
+
+    for name in range(1):
+        beatles.append(str(input("Enter Pete Best: ")))
+# step 3
+    print("Step 3:", beatles)
+
+del beatles[-1]
+del beatles[-1]
+
+
+# step 4
+print("Step 4:", beatles)
+
+# step 5
+print("Step 5:", beatles)
+
+
+# testing list legth
+print("The Fab", len(beatles))
+
