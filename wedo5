@@ -1,0 +1,30 @@
+#create a flag with a set flag 
+                                  # 0000 0000 0000 x000
+flag_registerA = 0x1234 #flag reset 0001 0010 0011 0100
+flag_registerB = 0x1248 #flag set   0001 0010 0100 1000
+
+ 
+
+#create an appropriate mask 
+mask = 8                          # 0000 0000 0000 1000
+
+ 
+
+#1 use & to check if flag set/reset 
+if flag_registerB & mask: # returns 8/True if set, 0/False if not
+    print("Windmill is on") #executed if true
+else:
+    print("windmill is offf") #executed if false
+
+ 
+
+#2 reset(assign zero) to bit 
+flag_registerB = flag_registerB & ~mask #turns off the windmill
+
+ 
+
+#check 2
+if flag_registerB & mask: # returns 8/True if set, 0/False if not
+    print("Windmill is on") #executed if true
+else:
+    print("windmill is offf") #executed if false
