@@ -1,11 +1,12 @@
-###### Get rid of Duplicates #######
-
 my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9] # Original List
 new_list = [] # New List
 
 for dupes in my_list: # for loop while defining dupes as a name in my_list
     if dupes not in new_list: # if dupes NOT in new_list move to next step
         new_list.append(dupes) # Add(append) dupes info to new_list
+        
+        #This finds a number,  checks if the new_list has it then adds if not.. 
+        #when it carries on any duplicates it would have already added
         
 print("nEw List", new_list)
 print("Original:")
